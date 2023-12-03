@@ -26,6 +26,7 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
+  namespace "com.RNAppleAuthentication"
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
 
   def agpVersion = com.android.Version.ANDROID_GRADLE_PLUGIN_VERSION
